@@ -43,6 +43,8 @@ My Install Flutter Progress:
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
