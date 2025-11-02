@@ -146,7 +146,6 @@ What is a widget?
 Explanation:
 * stateless means this widget won't contain any state / data which changes over time / in response to something like user clicking on a button...
 
-
 * if we want to output an image = use an image widget
 * if we need a container for a layout = use a container widget
 * if we need a column for a layout = use a column widget
