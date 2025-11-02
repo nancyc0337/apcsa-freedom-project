@@ -45,6 +45,27 @@ My Install Flutter Progress:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
+### 10/27/2025:
+
+Link: (Flutter Crash Course #4 - Making a New Flutter Project)[https://youtu.be/adNHZVBd284?si=CT8Yu91mnqcQ_Z4Q]
+
+Notes:
+
+To make up a brand new flutter project:
+* navigate to the directory that you want to create the project in
+
+! try not to have any directory with any spaces or special characters.
+
+use _ if need to use space
+
+`flutter create name` = creates the project
+
+`flutter run` = runs the project
+
+Click mobile emulator, Start Pixel 6 API 33, it'll show an iphone, will demonstrate how our code will show on our phone.
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
