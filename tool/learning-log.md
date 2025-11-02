@@ -45,9 +45,9 @@ My Install Flutter Progress:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
-### 10/27/2025:
+### 10/27/2025 & 11/2/2025:
 
-Link: (Flutter Crash Course #4 - Making a New Flutter Project)[https://youtu.be/adNHZVBd284?si=CT8Yu91mnqcQ_Z4Q]
+Link: [Flutter Crash Course #4 - Making a New Flutter Project](https://youtu.be/adNHZVBd284?si=CT8Yu91mnqcQ_Z4Q)
 
 Notes:
 
@@ -62,9 +62,107 @@ use _ if need to use space
 
 `flutter run` = runs the project
 
-Click mobile emulator, Start Pixel 6 API 33, it'll show an iphone, will demonstrate how our code will show on our phone.
+Click mobile emulator, Start the name of the emulator, it'll show an iphone, will demonstrate how our code will show on our phone.
+
+Since I didn't have the emulator, I have to download android studio: https://developer.android.com/studio.
+
+Pictures of downloading the android studio:
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+This is where & what my code will show:
+
+![alt text](image-13.png)
+
+Link: [Flutter Crash Course #5 - Quick Project Overview](https://youtu.be/qdyt8UO-MqM?si=4hUVkXfj3QYbpOh3)
+
+Notes:
+
+* inside the `lib` folder, there should be a `main.dart` file 
+  * mostly where all my application is going to be 
+  * where I'm going to do most of my coding
+
+Code #1: 
+
+``` flutter
+void main() {
+  runApp(const MyApp());
+}
+```
+Explanation: 
+* my Kickstart of my application
+* runs automatically 
+* `runApp` actually runs the application
+
+In `runApp`, there we can have a variable that we can use as a class and use it as an argument (root widget).
+
+Code #2: 
+
+``` flutter
+@override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+```
+Explanation: 
+* `Widget build(BuildContext context) {}` = root of my application 
+* `home: const MyHomePage(title: 'Flutter Demo Home Page'),` = title on my application 
+
+* `title: Text(widget.title),` = title
+
+* `body: Center()` = Center is a layout widget. It takes a single child and positions it in the middle of the parent.
+
+* `child: Column()` = Column is also a layout widget. It takes a list of children and arranges them vertically. By default, it sizes itself to fit its children horizontally, and tries to be as tall as its parent.
+
+Link: [Flutter Crash Course #6 - Widgets](https://youtu.be/L0izVqsaxLI?si=4Gnkv4zZsbDYvzpF)
+
+Notes: 
+
+What is a widget? 
+* Widget is actually just a class
+
+* `class MyApp extends StatelessWidget {}`
+
+Explanation:
+* stateless means this widget won't contain any state / data which changes over time / in response to something like user clicking on a button...
 
 
+* if we want to output an image = use an image widget
+* if we need a container for a layout = use a container widget
+* if we need a column for a layout = use a column widget
+* we can also make our own custom widget
+
+... 
+
+Widget Tree:
+
+![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+* most widgets will be pre-made or customable
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
 <!--
 * Links you used today (websites, videos, etc)
