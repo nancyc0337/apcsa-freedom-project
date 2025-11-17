@@ -163,6 +163,53 @@ Widget Tree:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
+### 11/16/2025:
+
+Link: [Flutter Crash Course #7 - MaterialApp & Scaffold](https://youtu.be/U0vS27vqKSo?si=KNA8m3Xi48GprdTU)
+
+Notes:
+
+`runApp(MaterialApp());` 
+* prebuilt widget
+* acts like a wrapper 
+* applies Google's material design styles / makes them available to all of the built-in core widgets like buttons, app bars, text...
+
+`import 'package:flutter/material.dart';`
+* core package provided by flutter 
+  * no need to install anything extra
+  
+! on top of the **main.dart** file, starter code 
+
+* material app widget accepts a bunch of different optional named arguments when we use it
+
+![alt text](image-16.png)
+
+For any widget I hover over: The arguments are white & respective types are in green.  
+
+If we hover the argument name, we can see some information about it. 
+
+![alt text](image-17.png)
+
+```
+void main() {
+  runApp(const MaterialApp(
+    home: Text('hello, ninjas'),
+  ));
+}
+```
+* `constant` = it knows that the value won't change after compile time
+  * therefore if the widget tree ever gets rebuilt anything with a constant in front of it can be reused again rather than rebuilt from scratch
+  * flutter knows it's a constant and its value is always going to be the same
+
+* we can optimize performance by making something a constant 
+* you might also see red error lines when something that was previously a const cannot be one anymore where we might have changed something within that widget in which case we just remove the const keyword
+
+![alt text](image-18.png)
+
+It shows really horrible looking text at the top with a double yellow line underneath it.
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
