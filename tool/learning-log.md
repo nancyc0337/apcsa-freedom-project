@@ -190,13 +190,14 @@ If we hover the argument name, we can see some information about it.
 
 ![alt text](image-17.png)
 
-```
+``` flutter
 void main() {
   runApp(const MaterialApp(
     home: Text('hello, ninjas'),
   ));
 }
 ```
+
 * `constant` = it knows that the value won't change after compile time
   * therefore if the widget tree ever gets rebuilt anything with a constant in front of it can be reused again rather than rebuilt from scratch
   * flutter knows it's a constant and its value is always going to be the same
