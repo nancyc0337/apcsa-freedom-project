@@ -205,9 +205,36 @@ void main() {
 * we can optimize performance by making something a constant 
 * you might also see red error lines when something that was previously a const cannot be one anymore where we might have changed something within that widget in which case we just remove the const keyword
 
-![alt text](image-18.png)
+![alt text](image-19.png)
 
 It shows really horrible looking text at the top with a double yellow line underneath it.
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
+
+### 11/23/2025:
+
+Link: [Flutter Crash Course #7 - MaterialApp & Scaffold](https://youtu.be/U0vS27vqKSo?si=KNA8m3Xi48GprdTU)
+
+Notes:
+
+Link: https://api.flutter.dev/flutter/material/MaterialApp-class.html
+
+Problem: Text widgets that lack a Material ancestor will be rendered with an ugly red/yellow text style.
+
+Solution: The typical fix is to give the widget a Scaffold ancestor. The Scaffold creates a Material widget that defines its default text style.
+
+``` flutter
+appBar: AppBar(
+  title: const Text('My Coffee Id'),
+  backgroundColor: Colors.brown[200],
+  centerTitle: true,
+)
+```
+Explanation: 
+* `title: const Text('My Coffee Id'),` = prints out the text "My Coffee Id"
+* `backgroundColor: Colors.brown[200],` = gives out the background color & the value inside [] shows the darkness/lightness of the color
+* `centerTitle: true,` = title is in the center of the screen 
+
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
 
