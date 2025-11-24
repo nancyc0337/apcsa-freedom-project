@@ -228,13 +228,18 @@ appBar: AppBar(
   title: const Text('My Coffee Id'),
   backgroundColor: Colors.brown[200],
   centerTitle: true,
-)
+),
+body: const Text('Hello, ninjas!'),
 ```
 Explanation: 
 * `title: const Text('My Coffee Id'),` = prints out the text "My Coffee Id"
 * `backgroundColor: Colors.brown[200],` = gives out the background color & the value inside [] shows the darkness/lightness of the color
 * `centerTitle: true,` = title is in the center of the screen 
+* `body: const Text('Hello, ninjas!'),` = the text will print in the body
 
+My output of my code: 
+
+![alt text](image-20.png)
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
 
