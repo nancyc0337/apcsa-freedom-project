@@ -243,6 +243,109 @@ My output of my code:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
 
+### 12/7/2025: 
+
+Link: [Flutter Crash Course #8 - Stateless Widgets](https://youtu.be/tDKgJEvhaP8?si=dBIKE5gKsaySj9_q)
+
+Notes:
+
+To get a new stateless widget:
+* type stl & then hitting tab
+
+(stl means stateless)
+
+Then this should pop up:
+
+```flutter
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+```
+
+* I should start my class names with a captial letter
+
+`extends StatelessWidget` = it inherits all the functionality that a stateless widget should have in flutter 
+* stateless means the widget won't contain any state that changes over time or in reaction to maybe an user event
+
+`const MyWidget({super.key});` = constructor for the class
+* takes in a single argument called key (defined within the widget class it inherits from)
+  * `{super.key}` passes that key to its parent class 
+  * all widgets in flutter have this optional key argument
+
+``` flutter
+@override
+Widget build(BuildContext context) {
+  return const Placeholder();
+}
+```
+* build function, should return a widget/widget tree 
+
+`@override` = override declaration, overriding the inherited version of the function
+* the function also exists on the parent class that we extend inside the function 
+  * inside the override declaration, we automatically get access to a build context object as a parameter 
+
+* inside the build method, we'll return a widget/widget tree 
+
+To see the change automatically for the stateless widgets, click the "save and hot reload button" (yellow lightning bolt).
+
+![alt text](image-21.png)
+
+The point of using stateless widget:
+
+1) we've now enabled hot reload during development for any changes we make within a build function 
+
+2) the home widget can return much more content than just a text widget 
+* it can return a whole widget tree, with a bunch of widgets within it  
+
+Process:
+
+1) Before adding stateless widget
+
+Code:
+
+![alt text](image-22.png)
+
+Output: 
+
+![alt text](image-23.png)
+
+2) stateless widget with the placeholder
+
+Code:
+
+![alt text](image-24.png)
+
+Output: 
+
+![alt text](image-25.png)
+
+3) stateless widget with text 
+
+Code:
+
+![alt text](image-26.png)
+
+Output:
+
+![alt text](image-27.png)
+
+I can use click "save and hot reload button" (yellow lightning bolt), no need to click "restart" (green reload arrow).
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/three)
+
+Code:
+
+![alt text](image-28.png)
+
+Output:
+
+![alt text](image-29.png)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
