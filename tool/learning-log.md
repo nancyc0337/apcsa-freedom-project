@@ -336,8 +336,6 @@ Output:
 
 I can use click "save and hot reload button" (yellow lightning bolt), no need to click "restart" (green reload arrow).
 
-My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/three)
-
 Code:
 
 ![alt text](image-28.png)
@@ -345,6 +343,8 @@ Code:
 Output:
 
 ![alt text](image-29.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/three)
 
 <!--
 * Links you used today (websites, videos, etc)
