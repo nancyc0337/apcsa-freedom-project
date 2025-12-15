@@ -346,6 +346,99 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/three)
 
+### 12/14/2025:
+
+Link: [Flutter Crash Course #9 - Containers](https://youtu.be/KgINruWilhc?si=N5KLUR9NqUTMkWkZ)
+
+Notes:
+
+Container widgets
+* act as wrappers to other content/other widgets 
+* flexible 
+
+* when the container doesn't have a child, it takes up all of the available space around it by default 
+
+Code:
+
+![alt text](image-31.png)
+
+Output:
+
+![alt text](image-30.png)
+
+Code:
+
+![alt text](image-33.png)
+
+Output:
+
+![alt text](image-32.png)
+
+Explanation: 
+
+* the width & height affects how high & long the container/child is 
+
+Code:
+
+![alt text](image-35.png)
+
+Output:
+
+![alt text](image-34.png)
+
+Explanation: 
+
+* `EdgeInsets` is how we will provide padding & margins
+* `all` = apply padding/margin to all sides 
+
+Code:
+
+![alt text](image-37.png)
+
+Output:
+
+![alt text](image-36.png)
+
+Explanation:
+
+* `EdgeInsets` is how we will provide padding & margins
+* `only` = only one side 
+
+Code:
+
+![alt text](image-39.png)
+
+Output:
+
+![alt text](image-38.png)
+
+Explanation: 
+
+* `EdgeInsets.fromLTRB`
+  * `LTRB` stands for **L**eft **T**op **R**ight **B**ottom
+
+Code:
+
+![alt text](image-41.png)
+
+Output:
+
+![alt text](image-40.png)
+
+Explanation: 
+
+To decorate the text: `style: TextStyle(),`
+
+Font-size: `fontSize #,`
+
+spacing of the letters: `letterSpacing: #,`
+
+how to decorate the style of the text: `decoration: TextDecoration.style,`
+
+how to apply font: `fontStyle: FontStyle.style,`
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/four)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
