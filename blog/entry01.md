@@ -35,7 +35,7 @@ Since I choose Flutter, I tinkered with it 2 times so far.
 
 This is my notes on tinkering with Flutter:
 
-#### 10/5/2025:
+#### 10/5/2025: What is Flutter?
 
 Link: [Flutter Crash Course #1 - What is Flutter?](https://youtu.be/j_rCDc_X-k8?si=7SZVABDTw0zlmIqr)
 
@@ -70,7 +70,7 @@ My Install Flutter Progress:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
-#### 10/27/2025 & 11/2/2025:
+#### 10/27/2025 & 11/2/2025: Making a New Flutter Project
 
 Link: [Flutter Crash Course #4 - Making a New Flutter Project](https://youtu.be/adNHZVBd284?si=CT8Yu91mnqcQ_Z4Q)
 
