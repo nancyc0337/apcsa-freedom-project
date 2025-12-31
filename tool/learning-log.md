@@ -439,6 +439,116 @@ how to apply font: `fontStyle: FontStyle.style,`
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/four)
 
+## Break Time 
+
+### 12/30/2025:
+
+Link: [Flutter Crash Course #9 - Containers](https://youtu.be/KgINruWilhc?si=N5KLUR9NqUTMkWkZ)
+
+Notes:
+
+* containers act as wrappers to other content or to other widgets 
+
+Code: 
+
+![alt text](image-42.png)
+
+Output: 
+
+![alt text](image-43.png)
+
+Code: 
+
+![alt text](image-44.png)
+
+Output: 
+
+![alt text](image-45.png)
+
+Code:
+
+![alt text](image-47.png)
+
+Output:
+
+![alt text](image-46.png)
+
+Code:
+
+![alt text](image-48.png)
+
+Output:
+
+![alt text](image-49.png)
+
+Reminder: If you're ever unsure of a value should be, hover over the argument name & look at what the property value should be
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/five)
+
+Link: [Flutter Crash Course #10 - Imports & Quick Refactor](https://youtu.be/FuTbF7DfECM?si=yIdKh4AWrMo8UGd4)
+
+Notes: 
+
+#### Rewrite
+
+Code: 
+
+![alt text](image-50.png)
+
+Output:
+
+![alt text](image-51.png)
+
+#### Imports
+
+Code (main.dart):
+
+![alt text](image-53.png)
+
+Code (home.dart): 
+
+![alt text](image-54.png)
+
+Output: 
+
+![alt text](image-52.png)
+
+* to get the import from another `.dart` file, click the yellow light bulb to see the content, click the first one & the import will pop up for you
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/six)
+
+Link: [Flutter Crash Course #11 - Columns](https://youtu.be/dLnwHbbhABE?si=gcMQCUIGkKIy9XHs)
+
+Notes:
+
+Link: [Flutter Crash Course #12 - Rows](https://youtu.be/wVrEWw_Q-Wg?si=3ti2gtkuZddiyNTm)
+
+Notes:
+
+Link: [Flutter Crash Course #13 - Images](https://youtu.be/u36eTxuGTsc?si=zVFy1bSciMR8g_0w)
+
+Notes:
+
+Link: [Flutter Crash Course #14 - Expanded Widget](https://youtu.be/awQEMKzXBlo?si=-vX4ky3-oSiXO2Pn)
+
+Notes:
+
+Link: [Flutter Crash Course #15 - Buttons & Press Events](https://youtu.be/Xqs_yHtxUiE?si=FjCpXNgD5IX5T-wM)
+
+Notes:
+
+Link: [Flutter Crash Course #16 - Stateful Widgets](https://youtu.be/Ab6TWjayrR0?si=wnna-ZhkUFiWzVHZ)
+
+Notes:
+
+Link: [Flutter Crash Course #17 - Control Flow in Lists](https://youtu.be/SzMf_RjXSG4?si=RczAatuvdOgGtRZm)
+
+Notes:
+
+Link: [Flutter Crash Course #18 - Making Re-usable Widgets](https://youtu.be/i6ZiiYJpuEk?si=ZvpUF6p_qs_HYHNt)
+
+Notes:
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
