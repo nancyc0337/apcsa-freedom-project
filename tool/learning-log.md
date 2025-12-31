@@ -14,7 +14,7 @@ Purpose:
 * The purpose is to make a project to make people less depressed!
 ---
 
-### 10/5/2025:
+### 10/5/2025: What is Flutter?
 
 Link: [Flutter Crash Course #1 - What is Flutter?](https://youtu.be/j_rCDc_X-k8?si=7SZVABDTw0zlmIqr)
 
@@ -45,7 +45,7 @@ My Install Flutter Progress:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
-### 10/27/2025 & 11/2/2025:
+### 10/27/2025 & 11/2/2025: Making a New Flutter Project
 
 Link: [Flutter Crash Course #4 - Making a New Flutter Project](https://youtu.be/adNHZVBd284?si=CT8Yu91mnqcQ_Z4Q)
 
@@ -92,25 +92,25 @@ Link: [Flutter Crash Course #5 - Quick Project Overview](https://youtu.be/qdyt8U
 
 Notes:
 
-* inside the `lib` folder, there should be a `main.dart` file 
-  * mostly where all my application is going to be 
+* inside the `lib` folder, there should be a `main.dart` file
+  * mostly where all my application is going to be
   * where I'm going to do most of my coding
 
-Code #1: 
+Code #1:
 
 ``` flutter
 void main() {
   runApp(const MyApp());
 }
 ```
-Explanation: 
+Explanation:
 * my Kickstart of my application
-* runs automatically 
+* runs automatically
 * `runApp` actually runs the application
 
 In `runApp`, there we can have a variable that we can use as a class and use it as an argument (root widget).
 
-Code #2: 
+Code #2:
 
 ``` flutter
 @override
@@ -124,9 +124,9 @@ Code #2:
     );
   }
 ```
-Explanation: 
-* `Widget build(BuildContext context) {}` = root of my application 
-* `home: const MyHomePage(title: 'Flutter Demo Home Page'),` = title on my application 
+Explanation:
+* `Widget build(BuildContext context) {}` = root of my application
+* `home: const MyHomePage(title: 'Flutter Demo Home Page'),` = title on my application
 
 * `title: Text(widget.title),` = title
 
@@ -136,9 +136,9 @@ Explanation:
 
 Link: [Flutter Crash Course #6 - Widgets](https://youtu.be/L0izVqsaxLI?si=4Gnkv4zZsbDYvzpF)
 
-Notes: 
+Notes:
 
-What is a widget? 
+What is a widget?
 * Widget is actually just a class
 
 * `class MyApp extends StatelessWidget {}`
@@ -151,7 +151,7 @@ Explanation:
 * if we need a column for a layout = use a column widget
 * we can also make our own custom widget
 
-... 
+...
 
 Widget Tree:
 
@@ -163,30 +163,30 @@ Widget Tree:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
 
-### 11/16/2025:
+### 11/16/2025: MaterialApp & Scaffold
 
 Link: [Flutter Crash Course #7 - MaterialApp & Scaffold](https://youtu.be/U0vS27vqKSo?si=KNA8m3Xi48GprdTU)
 
 Notes:
 
-`runApp(MaterialApp());` 
+`runApp(MaterialApp());`
 * prebuilt widget
-* acts like a wrapper 
+* acts like a wrapper
 * applies Google's material design styles / makes them available to all of the built-in core widgets like buttons, app bars, text...
 
 `import 'package:flutter/material.dart';`
-* core package provided by flutter 
+* core package provided by flutter
   * no need to install anything extra
-  
-! on top of the **main.dart** file, starter code 
+
+! on top of the **main.dart** file, starter code
 
 * material app widget accepts a bunch of different optional named arguments when we use it
 
 ![alt text](image-16.png)
 
-For any widget I hover over: The arguments are white & respective types are in green.  
+For any widget I hover over: The arguments are white & respective types are in green.
 
-If we hover the argument name, we can see some information about it. 
+If we hover the argument name, we can see some information about it.
 
 ![alt text](image-17.png)
 
@@ -202,7 +202,7 @@ void main() {
   * therefore if the widget tree ever gets rebuilt anything with a constant in front of it can be reused again rather than rebuilt from scratch
   * flutter knows it's a constant and its value is always going to be the same
 
-* we can optimize performance by making something a constant 
+* we can optimize performance by making something a constant
 * you might also see red error lines when something that was previously a const cannot be one anymore where we might have changed something within that widget in which case we just remove the const keyword
 
 ![alt text](image-19.png)
@@ -211,7 +211,7 @@ It shows really horrible looking text at the top with a double yellow line under
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
 
-### 11/23/2025:
+### 11/23/2025: MaterialApp & Scaffold
 
 Link: [Flutter Crash Course #7 - MaterialApp & Scaffold](https://youtu.be/U0vS27vqKSo?si=KNA8m3Xi48GprdTU)
 
@@ -231,19 +231,19 @@ appBar: AppBar(
 ),
 body: const Text('Hello, ninjas!'),
 ```
-Explanation: 
+Explanation:
 * `title: const Text('My Coffee Id'),` = prints out the text "My Coffee Id"
 * `backgroundColor: Colors.brown[200],` = gives out the background color & the value inside [] shows the darkness/lightness of the color
-* `centerTitle: true,` = title is in the center of the screen 
+* `centerTitle: true,` = title is in the center of the screen
 * `body: const Text('Hello, ninjas!'),` = the text will print in the body
 
-My output of my code: 
+My output of my code:
 
 ![alt text](image-20.png)
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/two)
 
-### 12/7/2025: 
+### 12/7/2025: Stateless Widgets
 
 Link: [Flutter Crash Course #8 - Stateless Widgets](https://youtu.be/tDKgJEvhaP8?si=dBIKE5gKsaySj9_q)
 
@@ -269,12 +269,12 @@ class MyWidget extends StatelessWidget {
 
 * I should start my class names with a captial letter
 
-`extends StatelessWidget` = it inherits all the functionality that a stateless widget should have in flutter 
+`extends StatelessWidget` = it inherits all the functionality that a stateless widget should have in flutter
 * stateless means the widget won't contain any state that changes over time or in reaction to maybe an user event
 
 `const MyWidget({super.key});` = constructor for the class
 * takes in a single argument called key (defined within the widget class it inherits from)
-  * `{super.key}` passes that key to its parent class 
+  * `{super.key}` passes that key to its parent class
   * all widgets in flutter have this optional key argument
 
 ``` flutter
@@ -283,13 +283,13 @@ Widget build(BuildContext context) {
   return const Placeholder();
 }
 ```
-* build function, should return a widget/widget tree 
+* build function, should return a widget/widget tree
 
 `@override` = override declaration, overriding the inherited version of the function
-* the function also exists on the parent class that we extend inside the function 
-  * inside the override declaration, we automatically get access to a build context object as a parameter 
+* the function also exists on the parent class that we extend inside the function
+  * inside the override declaration, we automatically get access to a build context object as a parameter
 
-* inside the build method, we'll return a widget/widget tree 
+* inside the build method, we'll return a widget/widget tree
 
 To see the change automatically for the stateless widgets, click the "save and hot reload button" (yellow lightning bolt).
 
@@ -297,10 +297,10 @@ To see the change automatically for the stateless widgets, click the "save and h
 
 The point of using stateless widget:
 
-1) we've now enabled hot reload during development for any changes we make within a build function 
+1) we've now enabled hot reload during development for any changes we make within a build function
 
-2) the home widget can return much more content than just a text widget 
-* it can return a whole widget tree, with a bunch of widgets within it  
+2) the home widget can return much more content than just a text widget
+* it can return a whole widget tree, with a bunch of widgets within it
 
 Process:
 
@@ -310,7 +310,7 @@ Code:
 
 ![alt text](image-22.png)
 
-Output: 
+Output:
 
 ![alt text](image-23.png)
 
@@ -320,11 +320,11 @@ Code:
 
 ![alt text](image-24.png)
 
-Output: 
+Output:
 
 ![alt text](image-25.png)
 
-3) stateless widget with text 
+3) stateless widget with text
 
 Code:
 
@@ -346,17 +346,17 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/three)
 
-### 12/14/2025:
+### 12/14/2025: Containers
 
 Link: [Flutter Crash Course #9 - Containers](https://youtu.be/KgINruWilhc?si=N5KLUR9NqUTMkWkZ)
 
 Notes:
 
 Container widgets
-* act as wrappers to other content/other widgets 
-* flexible 
+* act as wrappers to other content/other widgets
+* flexible
 
-* when the container doesn't have a child, it takes up all of the available space around it by default 
+* when the container doesn't have a child, it takes up all of the available space around it by default
 
 Code:
 
@@ -374,9 +374,9 @@ Output:
 
 ![alt text](image-32.png)
 
-Explanation: 
+Explanation:
 
-* the width & height affects how high & long the container/child is 
+* the width & height affects how high & long the container/child is
 
 Code:
 
@@ -386,10 +386,10 @@ Output:
 
 ![alt text](image-34.png)
 
-Explanation: 
+Explanation:
 
 * `EdgeInsets` is how we will provide padding & margins
-* `all` = apply padding/margin to all sides 
+* `all` = apply padding/margin to all sides
 
 Code:
 
@@ -402,7 +402,7 @@ Output:
 Explanation:
 
 * `EdgeInsets` is how we will provide padding & margins
-* `only` = only one side 
+* `only` = only one side
 
 Code:
 
@@ -412,7 +412,7 @@ Output:
 
 ![alt text](image-38.png)
 
-Explanation: 
+Explanation:
 
 * `EdgeInsets.fromLTRB`
   * `LTRB` stands for **L**eft **T**op **R**ight **B**ottom
@@ -425,7 +425,7 @@ Output:
 
 ![alt text](image-40.png)
 
-Explanation: 
+Explanation:
 
 To decorate the text: `style: TextStyle(),`
 
