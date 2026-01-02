@@ -517,13 +517,239 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/six)
 
+### 1/1/2026
+
 Link: [Flutter Crash Course #11 - Columns](https://youtu.be/dLnwHbbhABE?si=gcMQCUIGkKIy9XHs)
 
 Notes:
 
+How the columns works:
+
+![alt text](image-59.png)
+
+* If we want the columns going from top to bottom, we would use the main axis.
+* If we want the columns going from left to right, we would use the cross axis.
+
+* don't forget the `child` widget
+
+Code:
+
+![alt text](image-56.png)
+
+Output:
+
+![alt text](image-55.png)
+
+Code: 
+
+![alt text](image-58.png)
+
+default behavior: stack one on top of the other in the center
+
+Output:
+
+![alt text](image-57.png)
+
+Code:
+
+![alt text](image-61.png)
+
+`crossAxisAlignment: CrossAxisAlignment.start,` shows the columns start at the left of the screen's column 
+
+Output:
+
+![alt text](image-60.png)
+
+Code:
+
+![alt text](image-63.png)
+
+`crossAxisAlignment: CrossAxisAlignment.end,` shows the columns start at the right of the screen's column
+
+Output:
+
+![alt text](image-62.png)
+
+Code:
+
+![alt text](image-64.png)
+
+`crossAxisAlignment: CrossAxisAlignment.stretch,` stretches the columns 
+
+Output:
+
+![alt text](image-65.png)
+
+Code:
+
+![alt text](image-66.png)
+
+`mainAxisAlignment: MainAxisAlignment.center,` sets the column in the center in the available room
+
+Output: 
+
+![alt text](image-67.png)
+
+Code:
+
+![alt text](image-68.png)
+
+`mainAxisAlignment: MainAxisAlignment.end,` sets the column at the bottom of the available room
+
+Output: 
+
+![alt text](image-69.png)
+
+Code:
+
+![alt text](image-70.png)
+
+`mainAxisAlignment: MainAxisAlignment.spaceBetween,` sets the equal amount of space between each column in the available room
+
+Output:
+
+![alt text](image-71.png)
+
+Code:
+
+![alt text](image-72.png)
+
+`mainAxisAlignment: MainAxisAlignment.spaceAround,` has space around the column
+
+Output:
+
+![alt text](image-73.png)
+
+Code (home.dart): 
+
+![alt text](image-74.png)
+
+Output:
+
+![alt text](image-75.png)
+
+Code (home.dart): 
+
+![alt text](image-77.png)
+
+Output:
+
+![alt text](image-76.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/seven)
+
 Link: [Flutter Crash Course #12 - Rows](https://youtu.be/wVrEWw_Q-Wg?si=3ti2gtkuZddiyNTm)
 
 Notes:
+
+How the rows works:
+
+![alt text](image-80.png)
+
+* If we want the rows going from top to bottom, we would use the cross axis.
+* If we want the rows going from left to right, we would use the main axis.
+
+* don't forget the `child` widget
+
+Code:
+
+![alt text](image-78.png)
+
+default: sets the rows in the center and to the left
+
+Output:
+
+![alt text](image-79.png)
+
+Code:
+
+![alt text](image-82.png)
+
+`mainAxisAlignment: MainAxisAlignment.end,` sets the rows to the end of the screen
+
+Output:
+
+![alt text](image-81.png)
+
+Code:
+
+![alt text](image-83.png)
+
+`mainAxisAlignment: MainAxisAlignment.center,` sets the rows to the center of the screen 
+
+Output:
+
+![alt text](image-84.png)
+
+Code:
+
+![alt text](image-85.png)
+
+`crossAxisAlignment: CrossAxisAlignment.end,` sets the rows to the bottom of the screen
+
+Output:
+
+![alt text](image-86.png)
+
+Code:
+
+![alt text](image-87.png)
+
+`crossAxisAlignment: CrossAxisAlignment.center` shows the rows in the center of the screen
+
+Output: 
+
+![alt text](image-88.png)
+
+Code:
+
+![alt text](image-89.png)
+
+`crossAxisAlignment: CrossAxisAlignment.start,` shows the rows start at the top of the screen
+
+Output:
+
+![alt text](image-90.png)
+
+Code:
+
+![alt text](image-92.png)
+
+`crossAxisAlignment: CrossAxisAlignment.stretch,` stretches the whole row
+
+Output:
+
+![alt text](image-91.png)
+
+Code: 
+
+(coffee_prefs.dart)
+
+![alt text](image-94.png)
+
+(main.dart)
+
+![alt text](image-95.png)
+
+(home.dart)
+
+![alt text](image-96.png)
+
+Output:
+
+![alt text](image-93.png)
+
+Code (coffee_prefs.dart):
+
+![alt text](image-98.png)
+
+We get 50 pixels of space between the texts.
+
+Output:
+
+![alt text](image-97.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eight)
 
 Link: [Flutter Crash Course #13 - Images](https://youtu.be/u36eTxuGTsc?si=zVFy1bSciMR8g_0w)
 
