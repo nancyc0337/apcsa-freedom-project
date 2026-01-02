@@ -38,9 +38,13 @@ Link: [Flutter Crash Course #2 - Installing on Windows](https://youtu.be/DvZuJeT
 ![alt text](image.png)
 
 My Install Flutter Progress:
+
 ![alt text](image-1.png)
+
 ![alt text](image-2.png)
+
 ![alt text](image-3.png)
+
 ![alt text](image-4.png)
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/one)
@@ -751,17 +755,112 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eight)
 
+### 1/2/2026
+
 Link: [Flutter Crash Course #13 - Images](https://youtu.be/u36eTxuGTsc?si=zVFy1bSciMR8g_0w)
 
 Notes:
+
+* make a folder named `assets`, and save the images in the `assets` folder
+
+![alt text](image-99.png)
+
+* add the imgs to assets in the file `pubspec.yaml`
+
+![alt text](image-100.png)
+
+How to add images:
+
+`Image.asset('assets/image_filename'),`
+
+Code (coffee_prefs.dart): 
+
+![alt text](image-101.png)
+
+Output: 
+
+![alt text](image-102.png)
+
+Code (coffee_prefs.dart):
+
+![alt text](image-103.png)
+
+* having the same color as the background + `colorBlendMode: BlendMode.multiply,` makes the image's background transparent
+
+Output:
+
+![alt text](image-104.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/nine)
 
 Link: [Flutter Crash Course #14 - Expanded Widget](https://youtu.be/awQEMKzXBlo?si=-vX4ky3-oSiXO2Pn)
 
 Notes:
 
+Code (home.dart):
+
+![alt text](image-106.png)
+
+Code (coffee_prefs.dart): 
+
+![alt text](image-107.png)
+
+* Expanded Widget helps with expanding the image
+* `fit: BoxFit.fitWidth,` & `alignment: Alignment.bottomCenter` help make the image fit in the available room of the screen
+ 
+Output: 
+
+![alt text](image-105.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/ten)
+
 Link: [Flutter Crash Course #15 - Buttons & Press Events](https://youtu.be/Xqs_yHtxUiE?si=FjCpXNgD5IX5T-wM)
 
 Notes:
+
+[Click to see the Link to different button type in Flutter](https://api.flutter.dev/flutter/material/ButtonStyle-class.html)
+
+![alt text](image-108.png)
+
+![alt text](image-109.png)
+
+* every button will have `onPressed` & `child` 
+
+`onPressed` will show what happens when pressed
+
+`child` will show what button looks like (ie: texts)
+
+Code (coffee_prefs.dart): 
+
+![alt text](image-110.png)
+
+Output:
+
+![alt text](image-111.png)
+
+How to press & increase by 1:
+
+Code (coffee_prefs.dart): 
+
+![alt text](image-113.png)
+
+![alt text](image-114.png)
+
+Output:
+
+![alt text](image-112.png)
+
+Code (coffee_prefs.dart): 
+
+![alt text](image-116.png)
+
+![alt text](image-117.png)
+
+Output:
+
+![alt text](image-115.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eleven)
 
 Link: [Flutter Crash Course #16 - Stateful Widgets](https://youtu.be/Ab6TWjayrR0?si=wnna-ZhkUFiWzVHZ)
 
