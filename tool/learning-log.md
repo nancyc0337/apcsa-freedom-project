@@ -862,13 +862,56 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eleven)
 
+### 1/3/2026
+
 Link: [Flutter Crash Course #16 - Stateful Widgets](https://youtu.be/Ab6TWjayrR0?si=wnna-ZhkUFiWzVHZ)
 
 Notes:
 
+* stateful widget can contain states data / values that changes at some point and then triggers a rebuild of the widget tree in response to that state change to reflect it 
+
+How to convert the state:
+
+![alt text](image-118.png)
+
+* click the yellow light bulb and click the convert to StatefulWidget
+* It works the same for stateless as well
+
+Code (coffee_prefs.dart):
+
+![alt text](image-120.png)
+
+![alt text](image-121.png)
+
+Output:
+
+![alt text](image-119.png)
+
+The number for the strength & sugars will increase by 1 when I click the + button. The number for the strength & sugars will restart back to 0 once it reaches 5. 
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/twelve)
+
 Link: [Flutter Crash Course #17 - Control Flow in Lists](https://youtu.be/SzMf_RjXSG4?si=RczAatuvdOgGtRZm)
 
-Notes:
+Code (coffee_prefs.dart): 
+
+(Strength)
+
+![alt text](image-122.png)
+
+(Sugars)
+
+![alt text](image-123.png)
+
+Output: 
+
+![alt text](image-124.png)
+
+The strength is represented by coffee beans, and will increase by 1 when I click the + button. The coffee bean will restart back to 0 once it reaches 5. 
+
+The sugars is represented by images of sugar cubes, and will increase by 1 when I click the + button. The sugar cubes will restart and say `No sugars...` once it reaches 5. 
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/thirteen)
 
 Link: [Flutter Crash Course #18 - Making Re-usable Widgets](https://youtu.be/i6ZiiYJpuEk?si=ZvpUF6p_qs_HYHNt)
 
