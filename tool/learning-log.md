@@ -913,9 +913,53 @@ The sugars is represented by images of sugar cubes, and will increase by 1 when 
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/thirteen)
 
+### 1/4/2026
+
 Link: [Flutter Crash Course #18 - Making Re-usable Widgets](https://youtu.be/i6ZiiYJpuEk?si=ZvpUF6p_qs_HYHNt)
 
 Notes:
+
+Re-usable Widgets can let us reuse the widget that we are using and we can change the value as we like. 
+
+1. making the text widget re-usable
+
+Code:
+
+(home.dart)
+
+![alt text](image-126.png)
+
+![alt text](image-127.png)
+
+(styled_body_text.dart)
+
+![alt text](image-128.png)
+
+Output:
+
+![alt text](image-125.png)
+
+2. making the button re-usable
+
+Code: 
+
+(coffee_prefs.dart)
+
+![alt text](image-130.png)
+
+![alt text](image-131.png)
+
+![alt text](image-132.png)
+
+(styled_button.dart)
+
+![alt text](image-133.png)
+
+Output:
+
+![alt text](image-129.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/fourteen)
 
 <!--
 * Links you used today (websites, videos, etc)
