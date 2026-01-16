@@ -443,9 +443,11 @@ how to apply font: `fontStyle: FontStyle.style,`
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/four)
 
+---
+
 ## Break Time 
 
-### 12/30/2025:
+### 12/30/2025: Containers
 
 Link: [Flutter Crash Course #9 - Containers](https://youtu.be/KgINruWilhc?si=N5KLUR9NqUTMkWkZ)
 
@@ -521,7 +523,7 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/six)
 
-### 1/1/2026
+### 1/1/2026: Columns
 
 Link: [Flutter Crash Course #11 - Columns](https://youtu.be/dLnwHbbhABE?si=gcMQCUIGkKIy9XHs)
 
@@ -755,7 +757,7 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eight)
 
-### 1/2/2026
+### 1/2/2026: Images
 
 Link: [Flutter Crash Course #13 - Images](https://youtu.be/u36eTxuGTsc?si=zVFy1bSciMR8g_0w)
 
@@ -862,7 +864,7 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eleven)
 
-### 1/3/2026
+### 1/3/2026: Stateful Widgets
 
 Link: [Flutter Crash Course #16 - Stateful Widgets](https://youtu.be/Ab6TWjayrR0?si=wnna-ZhkUFiWzVHZ)
 
@@ -913,7 +915,7 @@ The sugars is represented by images of sugar cubes, and will increase by 1 when 
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/thirteen)
 
-### 1/4/2026
+### 1/4/2026: Making Re-usable Widgets
 
 Link: [Flutter Crash Course #18 - Making Re-usable Widgets](https://youtu.be/i6ZiiYJpuEk?si=ZvpUF6p_qs_HYHNt)
 
@@ -963,7 +965,7 @@ My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-fre
 
 ---
 
-### 1/15/2026
+### 1/15/2026: Creating a List with Flutter
 
 Link: [Create a List View with Flutter](https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw)
 
