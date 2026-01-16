@@ -961,6 +961,55 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/fourteen)
 
+---
+
+### 1/15/2026
+
+Link: [Create a List View with Flutter](https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw)
+
+Notes:
+
+Building the list with Flutter:
+
+![alt text](image-137.png)
+
+How many lists do I need:
+
+`items: List<String>.generate(10, (i) => "Hello_" + i.toString()),`
+
+I can change the 10, to repeat the items in the list. 
+
+List Decorations:
+
+![alt text](image-138.png)
+
+Code: 
+
+![alt text](image-135.png)
+
+![alt text](image-136.png)
+
+Output:
+
+![alt text](image-134.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/fifteen)
+
+<!--
+* List: https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw
+
+Games:
+* Tic-Tac-Toe: https://youtu.be/Co5weRri5XY?si=KJbOz5i06pPp880E 
+* Math Game: https://youtu.be/2FmDfpI7jPM?si=dDAru3NurLn3bwAd
+* Dino Game: https://youtu.be/ivNx5rjpQQo?si=1qeG0C5ppb89dBsb
+* Snakes: https://youtu.be/cxX16GBitpY?si=XIASLTkO6iQfbB0P
+* Ping-Pong: https://youtu.be/ScxmOdY0MoE?si=yfog1s5VBhr8io5d
+
+Tutorials:
+* ToDo: https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=PITC9zDpeiTcqojF
+* Advice: https://youtu.be/7dZLuzrXQXg?si=Er4V5eiiWiqezD-r
+-->
+ 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
