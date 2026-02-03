@@ -1,5 +1,5 @@
 # Entry 3: Learning My Tool Over The Winter Break
-##### X/X/2026
+##### 2/2/2026
 
 ## Content: Learning My Tool Over The Winter Break
 
