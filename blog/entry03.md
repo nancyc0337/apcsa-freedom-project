@@ -7,29 +7,29 @@ From December 24 to January 4, I have been learning my tool **Flutter**. I finis
 
 ### My Notes In My Learning Log
 
-#### Break Time 
+#### Break Time
 
-##### 12/30/2025:
+##### 12/30/2025: Containers
 
 Link: [Flutter Crash Course #9 - Containers](https://youtu.be/KgINruWilhc?si=N5KLUR9NqUTMkWkZ)
 
 Notes:
 
-* containers act as wrappers to other content or to other widgets 
+* containers act as wrappers to other content or to other widgets
 
-Code: 
+Code:
 
 ![alt text](image-42.png)
 
-Output: 
+Output:
 
 ![alt text](image-43.png)
 
-Code: 
+Code:
 
 ![alt text](image-44.png)
 
-Output: 
+Output:
 
 ![alt text](image-45.png)
 
@@ -55,11 +55,11 @@ My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-fre
 
 Link: [Flutter Crash Course #10 - Imports & Quick Refactor](https://youtu.be/FuTbF7DfECM?si=yIdKh4AWrMo8UGd4)
 
-Notes: 
+Notes:
 
 ###### Rewrite
 
-Code: 
+Code:
 
 ![alt text](image-50.png)
 
@@ -73,11 +73,11 @@ Code (main.dart):
 
 ![alt text](image-53.png)
 
-Code (home.dart): 
+Code (home.dart):
 
 ![alt text](image-54.png)
 
-Output: 
+Output:
 
 ![alt text](image-52.png)
 
@@ -85,7 +85,7 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/six)
 
-##### 1/1/2026
+##### 1/1/2026: Columns
 
 Link: [Flutter Crash Course #11 - Columns](https://youtu.be/dLnwHbbhABE?si=gcMQCUIGkKIy9XHs)
 
@@ -108,7 +108,7 @@ Output:
 
 ![alt text](image-55.png)
 
-Code: 
+Code:
 
 ![alt text](image-58.png)
 
@@ -122,7 +122,7 @@ Code:
 
 ![alt text](image-61.png)
 
-`crossAxisAlignment: CrossAxisAlignment.start,` shows the columns start at the left of the screen's column 
+`crossAxisAlignment: CrossAxisAlignment.start,` shows the columns start at the left of the screen's column
 
 Output:
 
@@ -142,7 +142,7 @@ Code:
 
 ![alt text](image-64.png)
 
-`crossAxisAlignment: CrossAxisAlignment.stretch,` stretches the columns 
+`crossAxisAlignment: CrossAxisAlignment.stretch,` stretches the columns
 
 Output:
 
@@ -154,7 +154,7 @@ Code:
 
 `mainAxisAlignment: MainAxisAlignment.center,` sets the column in the center in the available room
 
-Output: 
+Output:
 
 ![alt text](image-67.png)
 
@@ -164,7 +164,7 @@ Code:
 
 `mainAxisAlignment: MainAxisAlignment.end,` sets the column at the bottom of the available room
 
-Output: 
+Output:
 
 ![alt text](image-69.png)
 
@@ -188,7 +188,7 @@ Output:
 
 ![alt text](image-73.png)
 
-Code (home.dart): 
+Code (home.dart):
 
 ![alt text](image-74.png)
 
@@ -196,7 +196,7 @@ Output:
 
 ![alt text](image-75.png)
 
-Code (home.dart): 
+Code (home.dart):
 
 ![alt text](image-77.png)
 
@@ -243,7 +243,7 @@ Code:
 
 ![alt text](image-83.png)
 
-`mainAxisAlignment: MainAxisAlignment.center,` sets the rows to the center of the screen 
+`mainAxisAlignment: MainAxisAlignment.center,` sets the rows to the center of the screen
 
 Output:
 
@@ -265,7 +265,7 @@ Code:
 
 `crossAxisAlignment: CrossAxisAlignment.center` shows the rows in the center of the screen
 
-Output: 
+Output:
 
 ![alt text](image-88.png)
 
@@ -289,7 +289,7 @@ Output:
 
 ![alt text](image-91.png)
 
-Code: 
+Code:
 
 (coffee_prefs.dart)
 
@@ -319,7 +319,7 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eight)
 
-##### 1/2/2026
+##### 1/2/2026: Images
 
 Link: [Flutter Crash Course #13 - Images](https://youtu.be/u36eTxuGTsc?si=zVFy1bSciMR8g_0w)
 
@@ -337,11 +337,11 @@ How to add images:
 
 `Image.asset('assets/image_filename'),`
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 ![alt text](image-101.png)
 
-Output: 
+Output:
 
 ![alt text](image-102.png)
 
@@ -365,14 +365,14 @@ Code (home.dart):
 
 ![alt text](image-106.png)
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 ![alt text](image-107.png)
 
 * Expanded Widget helps with expanding the image
 * `fit: BoxFit.fitWidth,` & `alignment: Alignment.bottomCenter` help make the image fit in the available room of the screen
- 
-Output: 
+
+Output:
 
 ![alt text](image-105.png)
 
@@ -388,13 +388,13 @@ Notes:
 
 ![alt text](image-109.png)
 
-* every button will have `onPressed` & `child` 
+* every button will have `onPressed` & `child`
 
 `onPressed` will show what happens when pressed
 
 `child` will show what button looks like (ie: texts)
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 ![alt text](image-110.png)
 
@@ -404,7 +404,7 @@ Output:
 
 How to press & increase by 1:
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 ![alt text](image-113.png)
 
@@ -414,7 +414,7 @@ Output:
 
 ![alt text](image-112.png)
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 ![alt text](image-116.png)
 
@@ -426,13 +426,13 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/eleven)
 
-##### 1/3/2026
+##### 1/3/2026: Stateful Widgets
 
 Link: [Flutter Crash Course #16 - Stateful Widgets](https://youtu.be/Ab6TWjayrR0?si=wnna-ZhkUFiWzVHZ)
 
 Notes:
 
-* stateful widget can contain states data / values that changes at some point and then triggers a rebuild of the widget tree in response to that state change to reflect it 
+* stateful widget can contain states data / values that changes at some point and then triggers a rebuild of the widget tree in response to that state change to reflect it
 
 How to convert the state:
 
@@ -451,13 +451,13 @@ Output:
 
 ![alt text](image-119.png)
 
-The number for the strength & sugars will increase by 1 when I click the + button. The number for the strength & sugars will restart back to 0 once it reaches 5. 
+The number for the strength & sugars will increase by 1 when I click the + button. The number for the strength & sugars will restart back to 0 once it reaches 5.
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/twelve)
 
 Link: [Flutter Crash Course #17 - Control Flow in Lists](https://youtu.be/SzMf_RjXSG4?si=RczAatuvdOgGtRZm)
 
-Code (coffee_prefs.dart): 
+Code (coffee_prefs.dart):
 
 (Strength)
 
@@ -467,23 +467,23 @@ Code (coffee_prefs.dart):
 
 ![alt text](image-123.png)
 
-Output: 
+Output:
 
 ![alt text](image-124.png)
 
-The strength is represented by coffee beans, and will increase by 1 when I click the + button. The coffee bean will restart back to 0 once it reaches 5. 
+The strength is represented by coffee beans, and will increase by 1 when I click the + button. The coffee bean will restart back to 0 once it reaches 5.
 
-The sugars is represented by images of sugar cubes, and will increase by 1 when I click the + button. The sugar cubes will restart and say `No sugars...` once it reaches 5. 
+The sugars is represented by images of sugar cubes, and will increase by 1 when I click the + button. The sugar cubes will restart and say `No sugars...` once it reaches 5.
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/thirteen)
 
-##### 1/4/2026
+##### 1/4/2026: Making Re-usable Widgets
 
 Link: [Flutter Crash Course #18 - Making Re-usable Widgets](https://youtu.be/i6ZiiYJpuEk?si=ZvpUF6p_qs_HYHNt)
 
 Notes:
 
-Re-usable Widgets can let us reuse the widget that we are using and we can change the value as we like. 
+Re-usable Widgets can let us reuse the widget that we are using and we can change the value as we like.
 
 1. making the text widget re-usable
 
@@ -505,7 +505,7 @@ Output:
 
 2. making the button re-usable
 
-Code: 
+Code:
 
 (coffee_prefs.dart)
 
@@ -525,6 +525,40 @@ Output:
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/fourteen)
 
+---
+
+### 1/15/2026: Creating a List with Flutter
+
+Link: [Create a List View with Flutter](https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw)
+
+Notes:
+
+Building the list with Flutter:
+
+![alt text](image-137.png)
+
+How many lists do I need:
+
+`items: List<String>.generate(10, (i) => "Hello_" + i.toString()),`
+
+I can change the 10, to repeat the items in the list.
+
+List Decorations:
+
+![alt text](image-138.png)
+
+Code:
+
+![alt text](image-135.png)
+
+![alt text](image-136.png)
+
+Output:
+
+![alt text](image-134.png)
+
+My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/fifteen)
+
 ## Sources
 
 My first resource is from my IDE/Github, where I stored & tinkered with my tool (tool folder): [Link To My Tool Folder](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/tool).
@@ -537,21 +571,41 @@ My fourth resource is a website about Flutter: [Link To flutter.dev](https://flu
 
 My fifth resource is a Flutter Tutorials playlist from Youtube that I found: [Link To The Flutter Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO).
 
+My sixth resource is a video that taught me Flutter lists: [Link To The YouTube Video Of **Create a List View with Flutter**](https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw).
+
 ## Engineering Design Process
 
 Right now in the Engineering Design Process(EDP), I am on the 5th step(Create a prototype). Currently, we are using many resources to learn our tool to make our project. I think I'll be on 6th step(Test and evaluate the prototype), using what we learned about our tool to create our game.
 
 ## Skills
 
-1) 
+1) How to learn & Organization
 
-The 1st skill I learned during this process is ****.
+The 1st & 2nd skill I learned during this process is **How to learn & Organization**.
 
-2) 
+Throughout this process, I learned all about Flutter myself with the Flutter Tutorials playlist from Youtube that I found: [Link To The Flutter Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO).
 
-The 2nd skill I learned during this process is ****.
+For my notes about **Flutter**, I took my notes in my [learning log](https://github.com/nancyc0337/apcsa-freedom-project/blob/main/tool/learning-log.md).
+
+2) Debugging & Attention to detail
+
+The 3rd & 4th skill I learned during this process is **Debugging & Attention to detail**.
+
+With the Flutter Tutorials playlist from Youtube that I found: [Link To The Flutter Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO), I [tinkered](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/tool) along the video.
+
+I needed to pay attention to detail because whenever I make one mistake in my code, I will encounter bugs/errors in my output.
+
+3) Growth mindset
+
+The 5th skill I learned during this process is **Growth mindset**.
+
+During my process of learning with Flutter, I needed patience because my computer would take a bit of time to load the output.
 
 ## Summary
+
+In conclusion, my next steps are learning `API integration, state management, and UI design` through [API Integration in Flutter | Flutter App Tutorial](https://youtu.be/tLkw7YJ996I?si=-SOJ_Rn4dbWwh0Ql) and watch this [YouTube Tutorial](https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=avrEICKHiDTky2KP).
+
+If I have time, I will learn to code some games with Flutter.
 
 [Previous](entry02.md) | [Next](entry04.md)
 

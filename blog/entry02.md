@@ -317,7 +317,7 @@ The 3rd & 4th skill I learned during this process is **Debugging & Attention to 
 
 With the Flutter Tutorials playlist from Youtube that I found: [Link To The Flutter Crash Course](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO), I [tinkered](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/tool) along the video.
 
-I needed to pay attention to detail because whenever I make one mistake in my code, I will encounter bugs/errors in my output. 
+I needed to pay attention to detail because whenever I make one mistake in my code, I will encounter bugs/errors in my output.
 
 3) Growth mindset
 
@@ -326,6 +326,7 @@ The 5th skill I learned during this process is **Growth mindset**.
 During my process of learning with Flutter, I needed patience because my computer would take a bit of time to load the output.
 
 ## Summary
+
 In conclusion, for the winter break (December 24 - January 4), my Freedom Project goal is to continue watching the [YouTube Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO). After finishing the [YouTube Tutorial](https://youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx&si=ukFdAKzmSUXAv6PO), I'll use what I learned about **Flutter** to make my CheerCharm app to help people to be less depressed!
 
 [Previous](entry01.md) | [Next](entry03.md)
