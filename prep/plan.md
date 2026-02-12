@@ -1,7 +1,18 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Flutter
+
+## Product: Multifunctional App (Name: CheerCharm)
+
+It will have 2-3 functions.
+
+First function is it can give the user motivation quotes/advice.
+
+Second function is the user can make a "to do list" for organization.
+
+Third function (beyond MVP) is if bored, the user can play some games in the "games" section.
+
+The purpose is to make a project to make people less depressed!
 
 ---
 
@@ -9,14 +20,40 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+(February 14-22)-(break)
+- [] learn `API integration, state management, and UI design` through [API Integration in Flutter | Flutter App Tutorial](https://youtu.be/tLkw7YJ996I?si=-SOJ_Rn4dbWwh0Ql)
+- [] watch this [YouTube Tutorial](https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=avrEICKHiDTky2KP)
+- [] I will learn to code some games with Flutter.
+
+(February 23-March 15): Main/Home screen & Advice-Generator
+
+- [] make Main/Home screen to navigate
+- [] make menu to navigate through the app
+- [] make Advice-Generator
+
+(March 16-April 5): To-do-list
+
+- [] continue to make Advice-Generator
+- [] make to-do-list
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+(April 6-13): make final edits and/or make Flutter games for project
+- [] make some games using Flutter
+- [] edit bugs
+- [] make final edits
 
+
+
+#### Wireframes
+![alt text](image.png)
+
+#### Links (helps me with picking colors for project)
+
+1) [16 Calming Colors That Help You Relax
+](https://www.color-meanings.com/calming-colors-relax/)
+
+2) [Shades of Colors](https://htmlcolorcodes.com/colors/)
 
 <!-- EXAMPLE
 
@@ -49,7 +86,7 @@
 
 <!-- DO NOT USE THIS YET
 
-#### Peer Feedback 
+#### Peer Feedback
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
