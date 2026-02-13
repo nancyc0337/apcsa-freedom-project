@@ -43,10 +43,23 @@ The purpose is to make a project to make people less depressed!
 - [] edit bugs
 - [] make final edits
 
-
-
 #### Wireframes
+
+##### Home Screen
+
 ![alt text](image.png)
+
+##### Advice Giver Screen
+
+![alt text](image-1.png)
+
+##### To-Do-List Screen
+
+![alt text](image-2.png)
+
+##### Games Screen
+
+![alt text](image-3.png)
 
 #### Links (helps me with picking colors for project)
 
