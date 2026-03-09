@@ -54,19 +54,19 @@ The purpose is to make a project to make people less depressed!
 
 ##### Home Screen
 
-
+![alt text](../prep/image.png)
 
 ##### Advice Giver Screen
 
-
+![alt text](../prep/image-1.png)
 
 ##### To-Do-List Screen
 
-
+![alt text](../prep/image-2.png)
 
 ##### Games Screen
 
-
+![alt text](../prep/image-3.png)
 
 #### Links (helps me with picking colors for project)
 
@@ -87,9 +87,9 @@ First, I made the project in my repo.
 
 In my Visual Studio Code, I did these steps to make my code for my project.
 
-1) Press Ctrl + Shift + P
+1) Press `Ctrl` + `Shift` + `P`
 
-2) Type Flutter: New Project
+2) Type `Flutter: New Project`
 
 3) Choose Application
 
