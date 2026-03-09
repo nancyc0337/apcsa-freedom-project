@@ -1001,21 +1001,64 @@ My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-fre
 
 My link to code tinker: [Click the link](https://github.com/nancyc0337/apcsa-freedom-project/tree/main/flutter/sixteen)
 
-<!--
-* List: https://youtu.be/i_qTTyuuIIo?si=Ou47kUIzRXrFwYgw
+### 3/8/2026: Learning Log 8  
 
-Games:
-* Tic-Tac-Toe: https://youtu.be/Co5weRri5XY?si=KJbOz5i06pPp880E 
-* Math Game: https://youtu.be/2FmDfpI7jPM?si=dDAru3NurLn3bwAd
-* Dino Game: https://youtu.be/ivNx5rjpQQo?si=1qeG0C5ppb89dBsb
-* Snakes: https://youtu.be/cxX16GBitpY?si=XIASLTkO6iQfbB0P
-* Ping-Pong: https://youtu.be/ScxmOdY0MoE?si=yfog1s5VBhr8io5d
+I started making the code for my freedom project. 
 
-Tutorials:
-* ToDo: https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=PITC9zDpeiTcqojF
-* Advice: https://youtu.be/7dZLuzrXQXg?si=Er4V5eiiWiqezD-r
--->
- 
+First, I made the project in my repo. 
+
+#### My steps
+
+In my Visual Studio Code, I did these steps to make my code for my project.
+
+1) Press Ctrl + Shift + P
+
+2) Type Flutter: New Project
+
+3) Choose Application
+
+4) Name it: cheer_charm_code
+
+5) Choose where to save it 
+
+6) Wait for Flutter to generate everything
+
+I was thinking ... 
+
+How I can share my project with a link or how people can use my project on their phone?
+
+1) Share it as a Web App
+
+I wanted others to use my app with a link, so I build it with this command: `flutter build web`. 
+
+It created a folder `build/web`. 
+
+![alt text](image-141.png)
+
+2) Share an Android APK
+
+I also wanted people to use my app on their phones, so I build the APK with this command: `flutter build apk --release`.
+
+I got: `build/app/outputs/flutter-apk/app-release.apk`
+
+![alt text](image-142.png)
+
+My `cheer_charm_code` paths: 
+
+![alt text](image-139.png)
+
+![alt text](image-140.png)
+
+After I build a web application and build an APK file, I started the code for the Home screen for the user to navigate.
+
+![alt text](image-143.png)
+
+Links: 
+* [How to Build an APK File in Flutter using VS Code | Super Easy 2026](https://youtu.be/iUH_HGytKyQ?si=zFRfW0RiALfjvG4_)
+* [How to Build a Flutter APK: A Step-by-Step Guide](https://blog.seeb4coding.in/how-to-build-a-flutter-apk-a-step-by-step-guide/?utm_source=copilot.com#google_vignette)
+* [Build and release a web app](https://docs.flutter.dev/deployment/web?utm_source=copilot.com)
+* [Building a web application with Flutter](https://docs.flutter.dev/platform-integration/web/building?utm_source=copilot.com)
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
