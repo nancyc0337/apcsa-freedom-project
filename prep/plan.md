@@ -21,9 +21,9 @@ The purpose is to make a project to make people less depressed!
 #### MVP
 
 (February 14-22)-(break)
-- [] learn `API integration, state management, and UI design` through [API Integration in Flutter | Flutter App Tutorial](https://youtu.be/tLkw7YJ996I?si=-SOJ_Rn4dbWwh0Ql)
-- [] watch this [YouTube Tutorial](https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=avrEICKHiDTky2KP)
-- [] I will learn to code some games with Flutter.
+- [x] learn `API integration, state management, and UI design` through [API Integration in Flutter | Flutter App Tutorial](https://youtu.be/tLkw7YJ996I?si=-SOJ_Rn4dbWwh0Ql)
+- [x] watch this [YouTube Tutorial](https://youtube.com/playlist?list=PLesyDHXnnTyM5nC88Ebh8KnUdxu6cvCDJ&si=avrEICKHiDTky2KP)
+- [x] I will learn to code some games with Flutter.
 
 (February 23-March 15): Main/Home screen & Advice-Generator
 
