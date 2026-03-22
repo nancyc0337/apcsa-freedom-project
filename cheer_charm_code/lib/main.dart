@@ -1,5 +1,5 @@
+import 'package:cheer_charm_code/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
 
 void main() {
   runApp(const CheerCharmApp());
@@ -13,8 +13,6 @@ class CheerCharmApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: '☺️ CheerCharm ☺️',
-      theme: ThemeData(
-      ),
       home: const HomeScreen(),
     );
   }

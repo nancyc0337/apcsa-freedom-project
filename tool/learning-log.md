@@ -1059,6 +1059,26 @@ Links:
 * [Build and release a web app](https://docs.flutter.dev/deployment/web?utm_source=copilot.com)
 * [Building a web application with Flutter](https://docs.flutter.dev/platform-integration/web/building?utm_source=copilot.com)
 
+### 3/21/2026: Learning Log 9  
+
+I made the code for the file [`home_screen.dart`](https://github.com/nancyc0337/apcsa-freedom-project/blob/main/cheer_charm_code/lib/home_screen.dart). 
+
+I made a permanent menu that won't close, the menu has 2 buttons. One has the `Advice Generator`, and another has the `To-Do List`.  
+
+Output:
+
+![alt text](image-144.png)
+
+Links:
+* [New Buttons and Button themes](https://docs.flutter.dev/release/breaking-changes/buttons)
+* [ElevatedButton class](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
+* [SizedBox class](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
+
+Plan:
+* start coding the advice-generator (3/23-3/29)
+* start coding the to-do list (spring break)
+* code a function where the app asks the user "What is your favorite color?" (spring break)
+  * Then using the user's input to change the background 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
