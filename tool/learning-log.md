@@ -1084,6 +1084,12 @@ Plan:
 
 What I did: I made the code for advice-generator.
 
+Ever since March 16 2026, I started gathering advices, affirmations, etc, from the social media that I use (YouTube & Instagram). I saved them in a Google Doc.
+
+![alt text](image-151.png)
+
+I copied the advices that I saved, made a file `advice.json`, and saved in assets folder. 
+
 Challenge: The Android Emulator won't run
 
 ![alt text](<Screenshot 2026-03-29 215701.png>)
