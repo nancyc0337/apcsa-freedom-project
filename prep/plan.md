@@ -27,8 +27,8 @@ The purpose is to make a project to make people less depressed!
 
 (February 23-March 15): Main/Home screen & Advice-Generator
 
-- [] make Main/Home screen to navigate
-- [] make menu to navigate through the app
+- [x] make Main/Home screen to navigate
+- [x] make menu to navigate through the app
 - [] make Advice-Generator
 
 (March 16-April 5): To-do-list
@@ -39,7 +39,7 @@ The purpose is to make a project to make people less depressed!
 #### Beyond MVP
 
 (April 6-13): make final edits and/or make Flutter games for project
-- [] make some games using Flutter
+- [] make some games using Flutter (Delete)
 - [] edit bugs
 - [] make final edits
 
