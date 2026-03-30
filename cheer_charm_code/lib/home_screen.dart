@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
                     Text(
                       "CheerCharm",
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 28,
                         fontWeight: FontWeight.bold,
                         color: Colors.pink.shade400,
                       ),
@@ -138,7 +138,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                     ),  
 
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 12),
 
                     const Text(
                       "Click 📝 To-Do List to organize your tasks!",
