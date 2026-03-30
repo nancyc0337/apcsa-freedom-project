@@ -1059,11 +1059,11 @@ Links that I used:
 * [Build and release a web app](https://docs.flutter.dev/deployment/web?utm_source=copilot.com)
 * [Building a web application with Flutter](https://docs.flutter.dev/platform-integration/web/building?utm_source=copilot.com)
 
-### 3/21/2026: Learning Log 9  
+### 3/21/2026: Learning Log 9
 
-I made the code for the file [`home_screen.dart`](https://github.com/nancyc0337/apcsa-freedom-project/blob/main/cheer_charm_code/lib/home_screen.dart). 
+I made the code for the file [`home_screen.dart`](https://github.com/nancyc0337/apcsa-freedom-project/blob/main/cheer_charm_code/lib/home_screen.dart).
 
-I made a permanent menu that won't close, the menu has 2 buttons. One has the `Advice Generator`, and another has the `To-Do List`.  
+I made a permanent menu that won't close, the menu has 2 buttons. One has the `Advice Generator`, and another has the `To-Do List`.
 
 Output:
 
@@ -1078,7 +1078,69 @@ Plan:
 * start coding the advice-generator (3/23-3/29)
 * start coding the to-do list (spring break)
 * code a function where the app asks the user "What is your favorite color?" (spring break)
-  * Then using the user's input to change the background 
+  * Then using the user's input to change the background
+
+### 3/29/2026: Learning Log 10
+
+What I did: I made the code for advice-generator.
+
+Ever since March 16 2026, I started gathering advices, affirmations, etc, from the social media that I use (YouTube & Instagram). I saved them in a Google Doc.
+
+![alt text](image-151.png)
+
+I copied the advices that I saved, made a file `advice.json`, and saved in assets folder.
+
+Challenge: The Android Emulator won't run
+
+![alt text](<Screenshot 2026-03-29 215701.png>)
+
+Process of fixing the challenge:
+
+`Terminal`
+
+![alt text](<Screenshot 2026-03-29 230204.png>)
+
+![alt text](<Screenshot 2026-03-29 230237.png>)
+
+![alt text](<Screenshot 2026-03-29 230252.png>)
+
+![alt text](<Screenshot 2026-03-29 230309.png>)
+
+![alt text](<Screenshot 2026-03-29 230326.png>)
+
+![alt text](<Screenshot 2026-03-29 230339.png>)
+
+`Android Studio`
+
+I went to my `Android Studios` and fixed my Flutter build.
+
+![alt text](image-145.png)
+
+![alt text](image-146.png)
+
+![alt text](image-147.png)
+
+I clicked the version 34.0.0 and unchecked 36.1.0 version. I clicked apply and ok. The `Android Studio` installed the correct build-tools for me.
+
+Output:
+
+![alt text](image-148.png)
+
+![alt text](image-149.png)
+
+![alt text](image-150.png)
+
+Link:
+* [`dart:math`](https://api.flutter.dev/flutter/dart-math/)
+* [Building user interfaces with Flutter](https://docs.flutter.dev/ui#stateful-and-stateless-widgets)
+* [`setState` method](https://api.flutter.dev/flutter/widgets/State/setState.html)
+* [Transforming assets at build time](https://docs.flutter.dev/ui/assets/asset-transformation)
+
+Plan:
+* start coding the to-do list (spring break)
+* code a function where the app asks the user "What is your favorite color?" (spring break)
+  * Then using the user's input to change the background
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
