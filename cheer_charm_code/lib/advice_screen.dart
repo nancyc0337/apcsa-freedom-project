@@ -12,7 +12,7 @@ class AdviceScreen extends StatefulWidget {
 
 class _AdviceScreenState extends State<AdviceScreen> {
   List<String> quotes = [];
-  String currentQuote = "Tap the button for advice!";
+  String currentQuote = "Tap the button for new quotes!";
 
   @override
   void initState() {
@@ -43,7 +43,7 @@ class _AdviceScreenState extends State<AdviceScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFFFF4FA),
       appBar: AppBar(
-        title: const Text("Motivation ✨"),
+        title: const Text("Quotes ✨"),
         backgroundColor: Colors.pinkAccent,
       ),
       body: Center(

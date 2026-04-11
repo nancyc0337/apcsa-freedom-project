@@ -29,12 +29,12 @@ The purpose is to make a project to make people less depressed!
 
 - [x] make Main/Home screen to navigate
 - [x] make menu to navigate through the app
-- [] make Advice-Generator
+- [x] make Advice-Generator
 
 (March 16-April 5): To-do-list
 
-- [] continue to make Advice-Generator
-- [] make to-do-list
+- [x] continue to make Advice-Generator
+- [x] make to-do-list
 
 #### Beyond MVP
 

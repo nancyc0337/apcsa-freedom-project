@@ -1141,6 +1141,15 @@ Plan:
 * code a function where the app asks the user "What is your favorite color?" (spring break)
   * Then using the user's input to change the background
 
+### 4/11/2026
+
+* finished advice-generator & to-do-list
+
+Plan (beyond MVP):
+* code a function where the app asks the user "What is your favorite color?"
+  * Then using the user's input to change the background
+* keep the list after the user exits the list and comes back
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

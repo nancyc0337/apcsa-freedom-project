@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                         );
                       },
                       child: const Text(
-                        "🗣️ Advice Generator",
+                        "🗣️ Quote Generator",
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
@@ -119,7 +119,7 @@ class HomeScreen extends StatelessWidget {
                     const SizedBox(height: 8),
 
                     const Text(
-                      "A place for helpful advices & organization",
+                      "A place for helpful advices/affirmations/quotes & organization",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
@@ -130,7 +130,7 @@ class HomeScreen extends StatelessWidget {
                     const SizedBox(height: 12),
 
                     const Text(
-                      "Click 🗣️ Advice Generator to generate an advice for the day!",
+                      "Click 🗣️ Quote Generator to generate a quote for the day!",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
