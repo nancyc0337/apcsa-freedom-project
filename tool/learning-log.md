@@ -1145,6 +1145,9 @@ Plan:
 
 * finished advice-generator & to-do-list
 
+Link:
+* [Link that helped me with my To-Do-List function](http://buildandteach.com/2024/11/26/simple-flutter-app-todo-list-app/)
+
 Plan (beyond MVP):
 * code a function where the app asks the user "What is your favorite color?"
   * Then using the user's input to change the background
