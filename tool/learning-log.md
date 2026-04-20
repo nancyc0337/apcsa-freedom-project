@@ -1072,7 +1072,7 @@ Output:
 Links:
 * [New Buttons and Button themes](https://docs.flutter.dev/release/breaking-changes/buttons)
 * [ElevatedButton class](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
-* [SizedBox class](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
+* [SizedBox class](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)*
 
 Plan:
 * start coding the advice-generator (3/23-3/29)
