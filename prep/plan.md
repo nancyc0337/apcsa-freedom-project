@@ -52,6 +52,8 @@ Others' Feedback:
 * adding a sub-task function for **To-Do List**
 * add option for **Due dates** for **To-Do List**
 
+![alt text](IMG_2397.JPG)
+
 #### Wireframes
 
 ##### Home Screen
