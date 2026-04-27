@@ -44,13 +44,13 @@ The purpose is to make a project to make people less depressed!
 ##### Beyond MVP (4/20/2026)
 
 My ideas:
-* code a function where the app asks the user their favorite color, then use that information to change the background
-* keep the list after the user exits the list and comes back
+* code a function where the app asks the user their favorite color, then use that information to change the background (Least important)
+* keep the list after the user exits the list and comes back (Least important)
 
 Others' Feedback:
-* a history button to see previous quotes for **Quotes Generator**
-* adding a sub-task function for **To-Do List**
-* add option for **Due dates** for **To-Do List**
+* a history button to see previous quotes for **Quotes Generator** (Third important)
+* adding a sub-task function for **To-Do List** (Most important)
+* add option for **Due dates** for **To-Do List** (Second important)
 
 ![alt text](IMG_2397.JPG)
 
