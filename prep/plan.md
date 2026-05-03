@@ -10,8 +10,6 @@ First function is it can give the user motivation quotes/advice.
 
 Second function is the user can make a "to do list" for organization.
 
-Third function (beyond MVP) is if bored, the user can play some games in the "games" section.
-
 The purpose is to make a project to make people less depressed!
 
 ---
@@ -42,6 +40,19 @@ The purpose is to make a project to make people less depressed!
 - [] make some games using Flutter (Delete)
 - [] edit bugs
 - [] make final edits
+
+##### Beyond MVP (4/20/2026)
+
+My ideas:
+* code a function where the app asks the user their favorite color, then use that information to change the background (Least important)
+* keep the list after the user exits the list and comes back (Least important)
+
+Others' Feedback:
+* a history button to see previous quotes for **Quotes Generator** (Third important)
+* adding a sub-task function for **To-Do List** (Most important)
+* add option for **Due dates** for **To-Do List** (Second important)
+
+![alt text](IMG_2397.JPG)
 
 #### Wireframes
 
