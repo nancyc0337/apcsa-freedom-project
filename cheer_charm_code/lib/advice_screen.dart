@@ -41,10 +41,15 @@ class _AdviceScreenState extends State<AdviceScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFFF4FA),
+      backgroundColor: Color(0xFFFFFFFF),
       appBar: AppBar(
-        title: const Text("Quotes ✨"),
-        backgroundColor: Colors.pinkAccent,
+        title: const Text("Quotes ✨", 
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Padding(
@@ -64,7 +69,7 @@ class _AdviceScreenState extends State<AdviceScreen> {
               ElevatedButton(
                 onPressed: generateQuote,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.pinkAccent,
+                  backgroundColor: Colors.blueAccent,
                   padding: const EdgeInsets.symmetric(
                     vertical: 16,
                     horizontal: 32,

@@ -8,14 +8,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFDF7FF),
+      backgroundColor: const Color(0xFFFFFFFF),
 
       body: Row(
         children: [
           // Permanent Sidebar
           Container(
             width: 200,
-            color: Colors.pink.shade50,
+            color: Color(0xFFADD8E6),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -23,13 +23,13 @@ class HomeScreen extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   padding: const EdgeInsets.all(24),
-                  color: Colors.pink.shade100,
+                  color: Colors.blue,
                   child: const Text(
                     "CheerCharm Menu ⚙️",
                     style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Color(0xFFFFFFFF),
                     ),
                   ),
                 ),
@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.pinkAccent,
+                        backgroundColor: Color(0xFFb3b3f1),
                         padding: const EdgeInsets.symmetric(vertical: 16),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                       },
                       child: const Text(
                         "🗣️ Quote Generator",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.black),
                       ),
                     ),
                   ),
@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                     width: double.infinity,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.purpleAccent,
+                        backgroundColor: Color(0xFFb3b3f1),
                         padding: const EdgeInsets.symmetric(vertical: 16),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
@@ -90,7 +90,7 @@ class HomeScreen extends StatelessWidget {
                       },
                       child: const Text(
                         "📝 To-Do List",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.black),
                       ),
                     ),
                   ),
@@ -108,11 +108,11 @@ class HomeScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "CheerCharm",
+                      "☺️ CheerCharm ☺️",
                       style: TextStyle(
-                        fontSize: 28,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
-                        color: Colors.pink.shade400,
+                        color: Colors.blue.shade400,
                       ),
                     ),
 
@@ -123,7 +123,8 @@ class HomeScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
-                        color: Color.fromARGB(255, 70, 69, 69),
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black,
                       ),
                     ),  
 
@@ -134,7 +135,8 @@ class HomeScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
-                        color: Color.fromARGB(255, 70, 69, 69),
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black,
                       ),
                     ),  
 
@@ -145,7 +147,8 @@ class HomeScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 16,
-                        color: Color.fromARGB(255, 70, 69, 69),
+                        fontWeight: FontWeight.w500,
+                        color: Colors.black,
                       ),
                     ),
 
